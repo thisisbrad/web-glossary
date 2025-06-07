@@ -30,9 +30,10 @@ interface Props {
     
   </head>
   <body class="">
-
-    <NavBar/>
-    <section class="container mx-auto max-w-screen-xl mt-10 px-8"><slot/></section>
-    <Footer/>
+    <div class="min-h-screen flex flex-col justify-between">
+      <NavBar/>
+      <section class="container flex justify-center flex-grow mx-auto max-w-screen-xl mt-10 px-8"><slot/></section>
+      <Footer/>
+    </div>
     </body>
 </html>
