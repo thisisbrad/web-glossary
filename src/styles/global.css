@@ -1,2 +1,6 @@
 @import "tailwindcss";
 @plugin '@tailwindcss/typography';
+
+.heading-test {
+  @apply text-amber-400;
+}
